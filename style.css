@@ -30,13 +30,17 @@ body, html
 }
 
 
-.h1{
+h1{
+
 	
 }
 
 .ll-banner h1{
 	margin-top: 150px;
 	margin-bottom: 50px;
+	font-weight: 550;
+	font-size: 50px;
+	text-transform: uppercase;
 }
 
 
@@ -44,7 +48,13 @@ body, html
 
 }
 .ll-banner h3{
-	margin-top: 40px;
+	margin-top: 30px;
+	font-weight: 200;
+	font-size: 30px;
+}
+
+p{
+	
 }
 
 .a.cta,
@@ -93,7 +103,7 @@ button.cta.alt{
 }
 
 .bilde4{
-	  width: 250px;
+  width: 250px; 
   height: 250px;
   background-image: url('file:///Users/liinmarie/Documents/GitHub/ll-newsletter/bilde8.png');
   background-size: 100%;
@@ -104,40 +114,98 @@ button.cta.alt{
 }
 
 .wrapper-marg-rundt-innhold{
-	width: 600px;
-	margin: 0px;
+	width: window.innerWidth;
+	margin: 10px;
 
 }
 
 
 .ll-banner{
 	background-color: #FFE6F8;
-	height: 700px;
+	height: 800px;
 	padding: 20px;
 	position: relative;
 	overflow: hidden;
 
 
 }
+
+
+
+/* 
+<nav>
+		<a href="#" class="logo">LIIN:LAND</a>
+		<ul>
+				<li><a href="#item/opplysninger">Sign up</a></li>
+				<li><a href="#newsletter-story">The story</a></li>
+				<li><a href="#more-info">More info</a></li>
+		</ul>
+		</nav>
+*/
+
+nav {
+	height: 50px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0,.2);
+	position: sticky;
+	top: 0;
+}
+
+nav .logo{
+	padding-left: 30px;
+    text-decoration: none;
+	font-size: 16px;
+	overflow: hidden;
+	display: absolute;
+	position: absolute;
+	padding-top: 10px;
+	text-transform: uppercase;
+
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	 box-sizing: border-box;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+
+}
+
 /*
-<div class="ll-banner">
-		<div class="wrapper-marg-rundt-innhold">
-			<h4>Cosmetics by <a href="file:///Users/liinmarie/Documents/GitHub/liinland/liinland.html"> Liin:LAND</a></h4>
-			<h1>Discover the newest make-up trends <br>
-				&amp; become a member off the <br>
-				LIIN:LAND community</h1>
-			<h3>An exclusive membership that gives you accsess to our<br> newest make-up, trends and all our private events.</h3>
-			<a class="cta alt" href="#more-info">Read more</a>
-		</div>
-		<div class="bilde1"></div>
-		<div class="bilde2"></div>
-		<div class="bilde3"></div>
+<div class="more-info" id="more-info">
+		<h2>Become a member</h2>
+		<p> Every week we have a <span class="highlight"> private event </span> for members. If you want to attend - sign up for an exclusive membership. New members will also receive a special welcomegift and a new make-up sample every month. </p>
+		<button class="cta">Sign me up!</button>
 	</div>
 */
 
+.more-info{
+	
+
+}
 
 
 
-
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+p{
+	text-align: center;
+}
 
 
